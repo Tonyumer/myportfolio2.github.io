@@ -1,0 +1,520 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,200&family=Source+Code+Pro:wght@200&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.sidebar1 {
+  background-color: gray;
+  width: 234px;
+  height: 130vh;
+  font-family: "Fira Sans", sans-serif;
+}
+.sidebar1 nav {
+  padding: 32px;
+}
+.sidebar1 nav li {
+  list-style-type: none;
+  font-size: 15px;
+  padding: 30px 0;
+}
+.sidebar1 nav li a {
+  text-decoration: none;
+  color: black;
+}
+.sidebar {
+  background-color: gray;
+  width: 234px;
+  height: 130vh;
+  font-family: "Fira Sans", sans-serif;
+}
+.sidebar nav {
+  padding: 32px;
+}
+.sidebar nav li {
+  list-style-type: none;
+  font-size: 15px;
+  padding: 30px 0;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+.main {
+  /* background-color: yellow; */
+  width: 90vw;
+}
+.container {
+  display: flex;
+}
+.hello {
+  font-size: 45px;
+  font-family: "Fira Sans", sans-serif;
+}
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Fira Sans", sans-serif;
+}
+.about {
+  font-size: 30px;
+  font-family: "Fira Sans", sans-serif;
+}
+.moreabout {
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  margin-top: 16px;
+}
+.buttons {
+  margin-top: 34px;
+}
+.buttons button {
+  padding: 9px 14px;
+  border-radius: 22px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 17px;
+  margin: 0px 3px;
+  cursor: pointer;
+}
+.buttons button a {
+  text-decoration: none;
+}
+.buttons button:hover {
+  color: dodgerblue;
+  background-color: white;
+}
+
+.infocontainer {
+  /* background-color: green;  */
+  height: 58vh;
+  width: 70vw;
+  margin: 115px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Source Code Pro", monospace;
+}
+.contactform {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.contactform h1 {
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  padding-top: 124px;
+}
+.contactform div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.contactform div input {
+  width: 46vw;
+  border-radius: 5px;
+  margin: 6px 0;
+  padding: 3px;
+}
+.btn {
+  border-radius: 5px;
+  width: 10vw;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  color: white;
+  background-color: dodgerblue;
+}
+.btn:hover {
+  color: dodgerblue;
+  background-color: white;
+  cursor: pointer;
+}
+
+.intro h1 {
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 12px;
+
+  text-shadow: 3px 6px 6px;
+}
+.intro p {
+  font-family: "Fira Sans", sans-serif;
+  font-size: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.main-1 {
+  margin-left: 34px;
+}
+
+ul li {
+  padding: 8px;
+  font-family: "Fira Sans", sans-serif;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.h-primarycenter {
+  text-align: center;
+  padding: 12px;
+  margin: 4px;
+}
+
+#home p {
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  font-family: verdana;
+}
+/* .heading{
+    margin-top: 2rem;
+  } */
+#para {
+  margin-top: 1rem;
+  padding: 0px 1rem;
+}
+/*services section styling using id selector */
+#services {
+  display: flex;
+  margin: 2px;
+}
+
+#services .box {
+  border: 2px solid brown;
+  padding: 12px;
+  margin-top: 2px;
+  margin: 10px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+
+/*services section paragraph styling using id selector */
+#services .box p {
+  font-size: 0.8rem;
+}
+
+/*services section image styling using id selector */
+#services .box img {
+  height: 150px;
+  margin: auto;
+  display: block;
+}
+
+/*for small headings in services boxes */
+.h-primary {
+  padding: 10px;
+  font-size: 1.9rem;
+  margin-top: 136px;
+}
+
+/*for sub headings for sections*/
+.h-secondary {
+  padding: 12px;
+  font-size: 1.3rem;
+}
+
+/*button styling using class selector */
+.btn {
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  margin: 5px 15px;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  font-size: 19px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*button hover styling using class selector */
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+a {
+  text-align: center;
+}
+.center {
+  text-align: center;
+  font-family: verdana;
+}
+
+.h-primarycenter {
+  text-align: center;
+  padding: 9px;
+  font-size: 2.1rem;
+  margin: 12px;
+  color: white;
+  background-color: black;
+}
+
+@media screen and (max-width: 870px) {
+  footer,
+  .sm-handle,
+  #services {
+    flex-direction: column;
+    padding: 10px 0px;
+    overflow: hidden;
+  }
+  #home {
+    padding: 0px;
+  }
+  #services .box {
+    border: 2px solid brown;
+    padding: 10px;
+    margin-top: 2px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .flex-align-left {
+    margin-left: 0;
+  }
+
+  #home p {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+  }
+  #para {
+    margin-top: 0rem;
+    padding: 0px 1rem;
+    overflow: hidden;
+  }
+
+  /* .h-primary {
+    
+    padding:0px;
+    margin-top: 200px;
+} */
+}
+@media screen and (max-width: 2100px) and (min-width: 1900px) {
+  .h-primary {
+    padding: 0px;
+    /* margin-top: 464px; */
+    margin-top: 357px;
+  }
+  #home p {
+    font-size: 2.2rem;
+  }
+  #home h1 {
+    font-size: 3.9rem;
+  }
+  #services .box p {
+    font-size: 1.8rem;
+  }
+  .h-secondary {
+    font-size: 2.3rem;
+  }
+  .btn {
+    font-size: 41px;
+  }
+  footer a {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 1900px) and (min-width: 1000px) {
+  .h-primary {
+    padding: 0px;
+
+    margin-top: 98px;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 900px) {
+  #home h1 {
+    margin-top: 366px;
+    font-size: 2.9rem;
+  }
+  #home p {
+    font-size: 1.5rem;
+  }
+  .h-primary {
+    margin-top: 474px;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 800px) {
+  .h-primary {
+    padding: 0px;
+    margin-top: 374px;
+  }
+  #home h1 {
+    margin-top: 74px;
+    font-size: 3.1rem;
+  }
+  #home p {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 800px) and (min-width: 500px) {
+  .h-primary {
+    padding: 0px;
+    margin-top: 300px;
+  }
+  #home h1 {
+    font-size: 1.9rem;
+  }
+}
+@media screen and (max-width: 500px) and (min-width: 250px) {
+  .h-primary {
+    margin-top: 207px;
+  }
+  #home h1 {
+    font-size: 1.9rem;
+  }
+  .sidebar1 {
+    display: none;
+  
+  }
+  .sidebar1 nav {
+    display: none;
+  }
+  .btn {
+    width: 65vw;
+
+}
+.buttons button {
+
+  margin: 9px 6px;
+
+  margin-left: 28px;
+}
+.sidebar {
+  
+  width: 85px;
+
+}
+.sidebar nav {
+  padding: 10px;
+}
+.hello{
+  font-size: 45px;
+}
+.name{
+
+  font-size: 35px;
+}
+.about{
+
+  font-size: 25px;
+}
+.moreabout{
+  font-size: 20px;
+}
+.intro h1 {
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 12px;
+  text-shadow: 3px 6px 6px;
+  width: 100vw;
+}
+.h-primarycenter {
+  margin: 0px;
+  width: 100vw;
+  padding: 9px 3px;
+}
+.container{
+  background-color: lightgray;
+}
+@media screen and (max-width: 450px) and (min-width: 400px) {
+  .h-primary {
+    margin-top: 237px;
+  }
+  #home h1 {
+    margin-top: 95px;
+  }
+
+  .btn {
+    width: 65vw;
+}
+  .contactform div input {
+  width: 56vw;
+  }
+  
+@media screen and (max-width: 400px) and (min-width: 350px) {
+  .h-primary {
+    padding: 0px;
+    margin-top: 200px;
+  }
+  #home h1 {
+    font-size: 1.9rem;
+    margin-top: 190px;
+  }
+  .sidebar {
+    display: none;
+  
+  }
+  .sidebar nav {
+    display: none;
+  }
+  .btn {
+    width: 65vw;
+}
+  #home p {
+    font-size: 1rem;
+  }
+ 
+
+
+@media screen and (max-width: 350px) and (min-width: 300px) {
+  #home h1 {
+    font-size: 1.9rem;
+    margin-top: 96px;
+  }
+  .sidebar {
+    display: none;
+  
+  }
+  .sidebar nav {
+    display: none;
+  }
+  .btn {
+    width: 65vw;
+}
+
+  .h-primary {
+    margin-top: 102px;
+  }
+ 
+}
+
+@media screen and (max-width: 300px) and (min-width: 200px) {
+  .h-primary {
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-top: 150px;
+  }
+  #home h1 {
+    font-size: 1.5rem;
+  }
+  .sidebar {
+    display: none;
+  
+  }
+  .sidebar nav {
+    display: none;
+  }
+  .btn {
+    width: 65vw;
+}
+  #home p {
+    font-size: 0.7rem;
+  }
+ 
+}
+
